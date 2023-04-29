@@ -1,3 +1,6 @@
 openvpn_exporter
 .idea
 dist
+out
+vendor
+build
