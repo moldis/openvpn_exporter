@@ -42,7 +42,7 @@ readonly GOFLAGS
 export GOFLAGS
 
 # Allow users to specify a different output name.
-out="${BINARY_NAME:-openvpn_exporter}"
+out="${OUT:-openvpn_exporter}"
 readonly out
 
 o_flags="-o=${out}"
